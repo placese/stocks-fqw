@@ -1,0 +1,44 @@
+.idea
+.ipynb_checkpoints
+.mypy_cache
+.vscode
+**/__pycache__
+__pycache__
+.pytest_cache
+htmlcov
+dist
+site
+.coverage
+coverage.xml
+.netlify
+test.db
+log.txt
+Pipfile.lock
+env3.*
+env
+docs_build
+venv
+docs.zip
+archive.zip
+*.pyc
+*.pyo
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# vim temporary files
+*~
+.*.sw?
+
+tests/.pytest_cache
+/pytest_cache
+**pytest_cache
