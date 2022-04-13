@@ -8,6 +8,7 @@ app = FastAPI()
 class TickerModel(BaseModel):
     info: dict
 
+
 @app.get("/")
 async def index():
     return {"message": "oh hi"}
@@ -18,4 +19,4 @@ async def tickers():
 
 @app.get("/tickers/{ticker}", response_model=dict)
 async def ticker(ticker: str):
-    return Ticker(ticker).get_info_by_ticker()
+    return Ticker(ticker).get_info()
