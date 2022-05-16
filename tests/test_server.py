@@ -1,7 +1,6 @@
-from urllib import response
 from fastapi.testclient import TestClient
 
-from app.server import app
+from app.gateway.server import app
 
 client = TestClient(app)
 
@@ -15,4 +14,4 @@ class TestGet:
     def test_get_ticker_info(self) -> None:
         response = client.get("/tickers/appl")
         assert response.status_code == 200
-    
+        assert response.json()['symbol'] == 'APPL'
