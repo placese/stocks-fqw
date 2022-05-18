@@ -14,5 +14,5 @@ def tickers_helper(ticker) -> dict:
     return {
         "id": str(ticker["_id"]),
         "ticker": ticker["ticker"],
-        "time_stamps": ticker["time_stamps"],
+        "data": ticker["data"],
     }
