@@ -1,33 +1,36 @@
+# FastAPI, python, venv
 .idea
-.ipynb_checkpoints
-.mypy_cache
+backend/.ipynb_checkpoints
+backend/.mypy_cache
 .vscode
 **/__pycache__
-__pycache__
-.pytest_cache
-htmlcov
-dist
-site
-.coverage
-coverage.xml
-.netlify
-test.db
-log.txt
-Pipfile.lock
-env3.*
-env
-docs_build
-venv
-docs.zip
-archive.zip
-*.pyc
-*.pyo
+backend/__pycache__
+backend/.pytest_cache
+backend/htmlcov
+backend/dist
+backend/site
+backend/.coverage
+backend/coverage.xml
+backend/.netlify
+backend/test.db
+backend/log.txt
+backend/Pipfile.lock
+backend/env3.*
+backend/env
+backend/docs_build
+backend/venv/
+backend/docs.zip
+backend/archive.zip
+backend/*.pyc
+backend/*.pyo
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+
+.ipynb_checkpoints/
 
 # Local History for Visual Studio Code
 .history/
@@ -39,6 +42,31 @@ archive.zip
 *~
 .*.sw?
 
-tests/.pytest_cache
-/pytest_cache
-**pytest_cache
+backend/tests/.pytest_cache
+backend/pytest_cache
+backend/**pytest_cache
+
+# React
+
+# dependencies
+frontend/node_modules/
+
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend//coverage
+
+# production
+frontend//build
+
+# misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
